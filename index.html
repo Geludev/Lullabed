@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lullabed – Privacy Policy</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; line-height: 1.55; color: #1c1c28; background: #fff; }
+  h1 { font-size: 1.7rem; } h2 { font-size: 1.15rem; margin-top: 1.8em; }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; } td, th { border: 1px solid #ddd; padding: 6px 8px; vertical-align: top; text-align: left; }
+  .muted { color: #666; font-size: .9rem; }
+</style>
+</head>
+<body>
+<h1>Lullabed – Privacy Policy</h1>
+<p class="muted">Last updated: 17 November 2026 · App: Lullabed – Competitive Sleeping (Android) · Contact: gelubdev@gmail.com</p>
+
+<p>Lullabed is built so that your sleep data stays on your phone. There is no Lullabed account and no Lullabed server.
+This policy explains what the app processes, where it goes and what you control.</p>
+
+<h2>1. Data that stays on your phone</h2>
+<ul>
+  <li><b>Microphone audio</b> is analysed live on the device to detect movement, snoring, sleep talk and other sounds.
+    Audio is never uploaded. Only short clips of detected sounds are saved on your phone (if you enabled recording);
+    they are deleted automatically after the period you choose, except clips you mark as favourites.</li>
+  <li><b>Motion and light sensors</b> are read during tracking to estimate sleep stages and bedroom light.</li>
+  <li><b>Sleep data</b> (nights, stages, scores, notes, mood, alarm settings, your name and age if you enter them)
+    is stored only in the app's private storage.</li>
+  <li><b>Crash logs</b> are saved on the phone only. Nothing is sent automatically; you can choose to share a report yourself.</li>
+</ul>
+
+<h2>2. Data that leaves your phone – only when you use these features</h2>
+<table>
+  <tr><th>Feature</th><th>What is sent</th><th>To whom</th></tr>
+  <tr><td>Friends, rankings, challenges, cheers (optional)</td>
+      <td>Your chosen name, profile picture choice, sleep score and – only if you allow it per friend – sleep duration and times,
+        sleep graph, sleep notes, bedtime status and one sound clip per night.</td>
+      <td>Only the friends you add. The data is end-to-end encrypted on your phone and delivered through public Nostr relays
+        (e.g. relay.damus.io, nos.lol, relay.primal.net). Relays can see technical metadata such as your random public key,
+        timestamps and IP address, but not the content.</td></tr>
+  <tr><td>Sleep together / partner mode (optional)</td>
+      <td>Sound levels and timings (never audio) and your sleep score.</td>
+      <td>Directly to your partner's phone over your local Wi-Fi. Nothing goes through the internet.</td></tr>
+  <tr><td>Weather (optional)</td>
+      <td>Approximate location (rounded coordinates).</td>
+      <td>Open-Meteo (api.open-meteo.com) to fetch the local weather.</td></tr>
+  <tr><td>Place of a night / home location (optional)</td>
+      <td>Approximate location.</td>
+      <td>Android's built-in geocoder (provided by your phone's system services) to find the town name.</td></tr>
+  <tr><td>Stories</td>
+      <td>A normal download request.</td>
+      <td>Internet Archive (archive.org), which hosts the LibriVox recordings.</td></tr>
+  <tr><td>Health Connect (optional)</td>
+      <td>Sleep sessions and stages are written to Health Connect; steps and heart rate are read from it.</td>
+      <td>Health Connect on your phone. Data from Health Connect is only used to show your sleep statistics and is never sent anywhere.</td></tr>
+  <tr><td>Backup (optional)</td>
+      <td>A backup file of your sleep data.</td>
+      <td>Only the folder you pick (for example a cloud drive you use).</td></tr>
+</table>
+
+<h2>3. What we do not do</h2>
+<ul>
+  <li>No advertising, no analytics or tracking SDKs, no selling or sharing of data with advertisers or data brokers.</li>
+  <li>No account and no collection of your data by the developer.</li>
+</ul>
+
+<h2>4. Permissions</h2>
+<p>Microphone (sleep tracking), notifications (tracking status and alarm), exact alarms and full-screen alarm (to wake you on time),
+running in the background all night, camera (only to scan a friend's QR code), approximate location (only for weather and place),
+Health Connect (optional sync). Every optional permission can be refused or revoked in Android's settings.</p>
+
+<h2>5. Your control and deletion</h2>
+<ul>
+  <li>Settings → Your data → <i>Delete all</i> removes every night, statistic and recording from the phone.</li>
+  <li>Removing a friend replaces your shared card with an empty one. Uninstalling the app deletes all app data on the phone.</li>
+  <li>Data already delivered to friends' phones is stored on their devices.</li>
+</ul>
+
+<h2>6. Children</h2>
+<p>Lullabed is not directed at children under 13.</p>
+
+<h2>7. Medical note</h2>
+<p>Lullabed is not a medical device. Sleep stages and breathing indications are estimates and are not a diagnosis.</p>
+
+<h2>8. Changes and contact</h2>
+<p>If this policy changes, the new version is published on this page with a new date. Questions: gelubdev@gmail.com.</p>
+</body>
+</html>

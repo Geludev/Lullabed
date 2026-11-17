@@ -48,8 +48,11 @@ This policy explains what the app processes, where it goes and what you control.
       <td>Approximate location.</td>
       <td>Android's built-in geocoder (provided by your phone's system services) to find the town name.</td></tr>
   <tr><td>Stories</td>
-      <td>A normal download request.</td>
+      <td>A normal download request (and, at most once a month, a check whether a recording has moved).</td>
       <td>Internet Archive (archive.org), which hosts the LibriVox recordings.</td></tr>
+  <tr><td>Friend server list (only if you use Friends)</td>
+      <td>A normal download request, at most once a week. No personal data.</td>
+      <td>GitHub Pages (geludev.github.io), which hosts the current list of Nostr relays so the app keeps working when a relay shuts down.</td></tr>
   <tr><td>Health Connect (optional)</td>
       <td>Sleep sessions and stages are written to Health Connect; steps and heart rate are read from it.</td>
       <td>Health Connect on your phone. Data from Health Connect is only used to show your sleep statistics and is never sent anywhere.</td></tr>
